@@ -9,4 +9,4 @@ Aunque me gusta hacer juegos nunca me he dedicado a ello.
 Aqui se subiran proyectos de codigo abierto enfocados en expandir la geologia e intentar introducirla en una nueva epoca.
 
 Proyectos personales:
-  -MiGeologoApp: https://pedrodb25.github.io/MiGeologoApp/
+  - MiGeologoApp: https://pedrodb25.github.io/MiGeologoApp/
