@@ -7,3 +7,6 @@ Programador de espiritu (java y python) me interesa mucho mas el back que el fro
 Aunque me gusta hacer juegos nunca me he dedicado a ello.
 
 Aqui se subiran proyectos de codigo abierto enfocados en expandir la geologia e intentar introducirla en una nueva epoca.
+
+Proyectos personales:
+  -MiGeologoApp: https://pedrodb25.github.io/MiGeologoApp/
