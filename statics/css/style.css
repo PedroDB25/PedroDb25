@@ -18,9 +18,9 @@ section .cartas .card-body{
 
 }
 div.circulos img{
-width: 5em;
-height: 5em;
-border-radius: 6em;
+width: 3em;
+height: 3em;
+border-radius: 50%;
 }
 .circulo{
     display: flex;
