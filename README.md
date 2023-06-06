@@ -1,12 +1,6 @@
-Hola soy Pedro DB.
+Hola soy Pedro DB. 
+Programador y geologo
+Actualmente trabajo de desarrollador web con Spring boot pero en mis ratos libres trasteo en proyectos con Python y JS.
 
-&#9935; Geologo de profesion &#9874;.
-
-Programador de espiritu (java y python) me interesa mucho mas el back que el front.
-
-Aunque me gusta hacer juegos nunca me he dedicado a ello.
-
-Aqui se subiran proyectos de codigo abierto enfocados en expandir la geologia e intentar introducirla en una nueva epoca.
-
-Proyectos personales:
-  - MiGeologoApp: https://pedrodb25.github.io/MiGeologoApp/
+Puedes mirar mis proyectos en el siguiente link:
+  - MiGeologoApp: https://pedrodb25.github.io/Proyectos/
