@@ -1,0 +1,32 @@
+body {
+    padding: 2em;
+    background-color: honeydew;
+}
+
+section {
+    padding: 2em 0;
+    min-height: 20vh;
+}
+.card img{
+  height: 25vh;
+}
+
+section .cartas .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+div.circulos img{
+width: 5em;
+height: 5em;
+border-radius: 6em;
+}
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    min-height: 10vh;
+}
