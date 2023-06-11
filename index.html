@@ -13,6 +13,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="statics/css/style.css">
+    <script src="statics/js/script.js"></script>
 </head>
 
 <body>
@@ -44,6 +45,7 @@
         </nav>
     </header>
     <section id="Proyectos" class="mt-2">
+        <p><i class="bi bi-exclamation-diamond"></i> Página en contrucción.</p>
         <h2>Proyectos</h2>
         <div class="cartas d-flex align-items-stretch justify-content-around flex-wrap">
             <div class="card" style="width: 18rem;">
@@ -52,7 +54,7 @@
                     <h5 class="card-title">React</h5>
                     <p class="card-text">Visita mis proyectos de react, donde consumo Apis para realizar un desarrollo
                         Front-end.</p>
-                    <a href="#" class="btn btn-primary">Mira los proyectos</a>
+                    <a data-num="1" class="btn btn-primary btnReact">Mira los proyectos</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -62,7 +64,7 @@
                     <h5 class="card-title">FastAPI</h5>
                     <p class="card-text">Visita mis proyectos en FastAPI, donde creo los proyectos de Back-end que luego
                         serán consumidos desde un Front-end.</p>
-                    <a href="#" class="btn btn-primary">Mira los proyectos</a>
+                    <a data-num="2" class="btn btn-primary btnFast">Mira los proyectos</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -71,7 +73,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Spring Boot</h5>
                     <p class="card-text">Visita mis proyectos en Spring boot, donde creo Aplicaciones web.</p>
-                    <a href="#" class="btn btn-primary">Mira los proyectos</a>
+                    <a data-num="3" class="btn btn-primary btnSpring">Mira los proyectos</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -81,16 +83,79 @@
                     <h5 class="card-title">Varios</h5>
                     <p class="card-text">Visita mis proyectos varios, aquí tengo pequeños proyectos en los que trasteo
                         con algunas tecnologías.</p>
-                    <a href="#" class="btn btn-primary">Mira los proyectos</a>
+                    <a data-num="4" class="btn btn-primary btnVarios">Mira los proyectos</a>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="infoProyectos">
+        <article id="infoProyectosReact">
+            <div>
+                <p>Tabla TODO</p>
+                <div>
+                    <div class="version">v0.1</div>
+                    <div class="verInfo">Ver info</div>
+                    <div class="probar">probar</div>
+                    <div class="verCodigo">ver código</div>
+                </div>
+            </div>
+            <div>
+                <p>PokeApi</p>
+                <div>
+                    <div class="version">v0.1</div>
+                    <div class="verInfo">Ver info</div>
+                    <div class="probar">probar</div>
+                    <div class="verCodigo">ver código</div>
+                </div>
+            </div>
+            <div>
+                <p>Cocktail-api</p>
+                <div>
+                    <div class="version">v0.1</div>
+                    <div class="verInfo">Ver info</div>
+                    <div class="probar">probar</div>
+                    <div class="verCodigo">ver código</div>
+                </div>
+            </div>
+        </article>
+        <article id="infoProyectosFastApi">
+            <div>
+                <p>Api Mineralogia</p>
+                <div>
+                    <div class="version">v0.1</div>
+                    <div class="verInfo">Ver info</div>
+                    <div class="probar">probar</div>
+                    <div class="verCodigo">ver código</div>
+                </div>
+            </div>
+        </article>
+        <article id="infoProyectosSpring">
+            <div>
+                <p>Reservas SKA</p>
+                <div>
+                    <div class="version">v0.1</div>
+                    <div class="verInfo">Ver info</div>
+                </div>
+            </div>
+            <div>
+                <p>Api Legitimo</p>
+                <div>
+                    <div class="version">v0.1</div>
+                    <div class="verInfo">Ver info</div>
+                </div>
+            </div>
+        </article>
+        <article id="infoProyectosVarios">
+            <div>
+                <p>Aun no se ha subido un proyecto (u_u)</p>
+            </div>
+        </article>
 
     </section>
     <section id="Tecnologias" class="row d-flex justify-content-between">
         <article class="lenguajes col-5">
             <h2>Lenguajes de programación</h2>
-            <div class="circulos d-flex justify-content-around  flex-wrap">
+            <div class="circulos d-flex justify-content-around flex-wrap">
                 <div class="circulo"><img src="statics/img/pythonIcon.png" alt="Icono de Python3">
                     <p>Python3</p>
                 </div>
@@ -155,8 +220,6 @@
                 <div class="circulo"><img src="statics/img/DockerICon.png" alt="Icono de docker">
                     <p>Docker</p>
                 </div>
-
-
             </div>
         </article>
     </section>
