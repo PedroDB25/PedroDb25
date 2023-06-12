@@ -1,0 +1,98 @@
+body {
+    padding: 2em;
+    background-color: honeydew;
+
+    & section {
+        padding: 2em 0;
+        min-height: 20vh;
+
+        .cartas {
+            .card {
+                & img {
+                    height: 25vh;
+                }
+
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+
+    & section#Tecnologias {
+        & div.circulo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & img {
+                width: 3em;
+                height: 3em;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &footer {
+        min-height: 10vh;
+    }
+}
+
+#infoProyectos {
+    & article {
+        display: none;
+        justify-content: space-evenly;
+        align-content: baseline;
+    }
+
+    & div {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: baseline;
+    }
+}
+
+#infoProyectos>article>div {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid;
+    padding: 1em;
+    border-radius: 2em;
+
+    & p {
+        margin: 0;
+        padding: 0;
+        font-weight: bolder;
+    }
+
+    & div {
+        display: flex;
+
+        & div {
+            font-size: .6em;
+            align-items: baseline;
+            border-radius: 2em;
+            cursor: pointer;
+            border: solid 1px;
+            padding: 0 .4em;
+        }
+
+        & div.version {
+            background-color: violet;
+            border-color: purple;
+        }
+
+        & div.verInfo {
+            background-color: greenyellow;
+            border-color: green;
+        }
+
+        & div.probar {
+            background-color: aquamarine;
+            border-color: blue;
+        }
+    }
+}
