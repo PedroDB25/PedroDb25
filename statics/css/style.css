@@ -96,3 +96,14 @@ body {
         }
     }
 }
+.tabla{
+    background-color: cornsilk;
+    padding: 0;
+    &>div{
+        border: 1px solid;
+        &>p:first-child{
+            background-color: white;
+            border: solid 1px;
+        }
+    }
+}
