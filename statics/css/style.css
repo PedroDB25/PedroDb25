@@ -54,54 +54,60 @@ body {
     }
 }
 
-#infoProyectos>article>div {
-    display: flex;
-    flex-direction: column;
-    background: white;
-    border: 1px solid;
-    padding: 1em;
-    border-radius: 2em;
-
-    & p {
-        margin: 0;
-        padding: 0;
-        font-weight: bolder;
-    }
-
-    & div {
+#infoProyectos>article {
+    flex-wrap: wrap;
+    >div {
         display: flex;
+        flex-direction: column;
+        background: white;
+        border: 1px solid;
+        padding: 1em;
+        border-radius: 2em;
+
+        & p {
+            margin: 0;
+            padding: 0;
+            font-weight: bolder;
+        }
 
         & div {
-            font-size: .6em;
-            align-items: baseline;
-            border-radius: 2em;
-            cursor: pointer;
-            border: solid 1px;
-            padding: 0 .4em;
-        }
+            display: flex;
 
-        & div.version {
-            background-color: violet;
-            border-color: purple;
-        }
+            & div {
+                font-size: .6em;
+                align-items: baseline;
+                border-radius: 2em;
+                cursor: pointer;
+                border: solid 1px;
+                padding: 0 .4em;
+            }
 
-        & div.verInfo {
-            background-color: greenyellow;
-            border-color: green;
-        }
+            & div.version {
+                background-color: violet;
+                border-color: purple;
+            }
 
-        & div.probar {
-            background-color: aquamarine;
-            border-color: blue;
+            & div.verInfo {
+                background-color: greenyellow;
+                border-color: green;
+            }
+
+            & div.probar {
+                background-color: aquamarine;
+                border-color: blue;
+            }
         }
     }
 }
-.tabla{
+
+.tabla {
     background-color: cornsilk;
     padding: 0;
-    &>div{
+
+    &>div {
         border: 1px solid;
-        &>p:first-child{
+
+        &>p:first-child {
             background-color: white;
             border: solid 1px;
         }
