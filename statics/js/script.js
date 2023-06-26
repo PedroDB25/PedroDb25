@@ -1,4 +1,4 @@
-import Proyecto from "/statics/js/model.js";
+import Proyecto from "PedroDb25/statics/js/model.js";
 
 window.addEventListener("load", init);
 
