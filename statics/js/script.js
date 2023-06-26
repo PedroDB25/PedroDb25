@@ -29,7 +29,7 @@ async function solicitarDatosRepo() {
     let data2 = await fetch("https://api.github.com/users/PedroDB25/repos")
     let proyectos = await data2.json()
     for (const i of proyectos) {
-        let proy = Proyecto(i);
+        let proy = new Proyecto(i);
 
         switch (i.topics[0]) {
             case "reactjs":

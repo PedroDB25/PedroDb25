@@ -16,13 +16,13 @@ export default class Proyecto{
         probar.className = "probar"
         verCodigo.className = "verCodigo"
 
-        nombre.innerHTML= i.name
-        version.innerHTML= i.description
+        nombre.innerHTML= this.proyecto.name
+        version.innerHTML= this.proyecto.description
         verInfo.innerHTML= "ver info"
         probar.innerHTML= "probar"
         verCodigo.innerHTML= "ver código"
 
-        verCodigo.href= i.html_url
+        verCodigo.href= this.proyecto.html_url
         verCodigo.target = "_blank"
 
         datos.appendChild(version)
