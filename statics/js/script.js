@@ -1,4 +1,4 @@
-import Proyecto from "./model";
+import Proyecto from "statics/js/model.js";
 
 window.addEventListener("load", init);
 
