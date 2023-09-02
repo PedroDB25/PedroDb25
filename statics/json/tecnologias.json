@@ -1,0 +1,102 @@
+{
+    "lenguajes": {
+        "titulo": "Lenguajes de programación",
+        "burbujas": [
+            {
+                "titulo": "Python3",
+                "src": "statics/img/pythonIcon.png",
+                "alt": "Icono de Python3"
+            },
+            {
+                "titulo": "Java",
+                "src": "statics/img/javaIcon.png",
+                "alt": "Icono de Java"
+            },
+            {
+                "titulo": "JS",
+                "src": "statics/img/JSIcon.jpg",
+                "alt": "Icono de JS"
+            },
+            {
+                "titulo": "TS",
+                "src": "statics/img/tsIcon.webp",
+                "alt": "Icono de TS"
+            },
+            {
+                "titulo": "PHP",
+                "src": "statics/img/phpIcon.webp",
+                "alt": "Icono de PHP"
+            },
+            {
+                "titulo": "SQL",
+                "src": "statics/img/SqlICon.png",
+                "alt": "Icono de SQL"
+            }
+        ]
+    },
+    "librerias": {
+        "titulo": "Librerías favoritas",
+        "burbujas": [
+            {
+                "titulo": "FastAPI",
+                "src": "statics/img/FastApiIcon.jpg",
+                "alt": "Icono de FastAPI"
+            },
+            {
+                "titulo": "OpenCV",
+                "src": "statics/img/openCVIcon.avif",
+                "alt": "Icono de OpenCV"
+            },
+            {
+                "titulo": "SqlAlchemy",
+                "src": "statics/img/sqlAlcheIcon.webp",
+                "alt": "Icono de SqlAlchemy"
+            },
+            {
+                "titulo": "ReactJS",
+                "src": "statics/img/reactIcon.jpg",
+                "alt": "Icono de React"
+            },
+            {
+                "titulo": "Numpy",
+                "src": "statics/img/numpyIcon.png",
+                "alt": "Icono de numpy"
+            },
+            {
+                "titulo": "Pandas",
+                "src": "statics/img/pandasIcon.png",
+                "alt": "Icono de Pandas"
+            }
+        ]
+    },
+    "servidores": {
+        "titulo": "Servidores utilizados",
+        "burbujas": [
+            {
+                "titulo": "Tomcat8+",
+                "src": "statics/img/tomcatIcon.png",
+                "alt": "Icono de tomcat"
+            },
+            {
+                "titulo": "Spring boot(tomcat embebido)",
+                "src": "statics/img/springIcon.png",
+                "alt": "Icono de spring boot"
+            },
+            {
+                "titulo": "Uvicorn",
+                "src": "statics/img/uvicornICon.png",
+                "alt": "Icono de Uvicorn"
+            }
+        ]
+    },
+    "herramientas": {
+        "titulo": "Herramientas de DevOps",
+        "burbujas": [
+            {
+                "titulo": "Docker",
+                "src": "statics/img/DockerICon.png",
+                "alt": "Icono de docker"
+            }
+        ]
+    }
+}

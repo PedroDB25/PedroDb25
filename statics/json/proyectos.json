@@ -1,0 +1,34 @@
+{
+    "react": {
+        "url": "statics/img/reactIcon.jpg",
+        "alt": "Imagen de un logo de react.",
+        "title": "Imagen de un logo de react.",
+        "titulo": "React",
+        "classParrafo": "textoCartaReact",
+        "classLink": "btnReact"
+    },
+    "fastApi": {
+        "url": "statics/img/FastApiIcon.png",
+        "alt": "Imagen de un logo de FastAPI.",
+        "title": "Imagen de un logo de FastAPI.",
+        "titulo": "FastAPI",
+        "classParrafo": "textoCartaFastApi",
+        "classLink": "btnFast"
+    },
+    "springBoot": {
+        "url": "statics/img/SpringBootIcon.png",
+        "alt": "Imagen de un logo de Spring boot.",
+        "title": "Imagen de un logo de Spring boot.",
+        "titulo": "Spring Boot",
+        "classParrafo": "textoCartaSpringBoot",
+        "classLink": "btnSpring"
+    },
+    "varios": {
+        "url": "statics/img/ProyectosIcon.png",
+        "alt": "Imagen de un generica de los proyectos.",
+        "title": "Imagen de un generica de los proyectos.",
+        "titulo": "Varios",
+        "classParrafo": "textoCartaVarios",
+        "classLink": "btnVarios"
+    }
+}

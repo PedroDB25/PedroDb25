@@ -1,0 +1,18 @@
+{
+    "infoProyectosSpring": [
+        "Reservas SKA",
+        "Api Legitimo"
+    ],
+    "infoProyectosVarios": [
+        "Scraping web estáticas",
+        "Scraping web dinámicas",
+        "Scripts Python3",
+        "Limpieza img OpenCV",
+        "ChatBot con chatterbot",
+        "Proyectos solidity",
+        "Proyectos Django",
+        "Proyectos Flask",
+        "Cliente pesado kivy",
+        "Bot de twitch"
+    ]
+}
