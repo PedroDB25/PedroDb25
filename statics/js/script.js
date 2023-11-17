@@ -1,5 +1,4 @@
 import Proyecto, { crearCartaGrupoProyectos, crearBurbujasProyectos, crearBurbujasTecnologias } from "/PedroDb25/statics/js/model.js";
-import mensajes from "/PedroDb25/statics/json/mensajes.json";
 
 window.addEventListener("load", init);
 
